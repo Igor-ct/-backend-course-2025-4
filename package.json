@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-  "start": "node main.js -i titanic.json -H 127.0.0.1 -p 3000",
-  "dev": "nodemon main.js -- -i titanic.json -H 127.0.0.1 -p 3000"
+    "start": "node main.js -i titanic.json -h 127.0.0.1 -p 3000",
+    "dev": "nodemon main.js -- -i titanic.json -h 127.0.0.1 -p 3000"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Igor-ct/-backend-course-2025-4#readme",
   "dependencies": {
-    "commander": "^14.0.1"
+    "commander": "^14.0.1",
+    "fast-xml-parser": "^5.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
